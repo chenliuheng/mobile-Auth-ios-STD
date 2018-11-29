@@ -69,7 +69,7 @@ self.login = [TYRZLogin loginWithAppId:APPID appKey:APPKEY];
 
 <div STYLE="page-break-after: always;"></div>
 
-#2. SDK方法描述
+# 2. SDK方法描述
 ## 2.1. 获取校验凭证
 
 ### 2.1.1 方法描述
@@ -274,19 +274,19 @@ self.login = [TYRZLogin loginWithAppId:APPID appKey:APPKEY];
 
 ## 3.2. 短信验证码下发接口
 
-短验辅助功能勾选后，本机号码校验接口返回“非本机号码”时，可以凭accessToken调用本接口请求短信验证码（仅支持移动号码）
+短验辅助功能勾选后，本机号码校验接口返回**非本机号码**时，可以凭accessToken调用本接口请求短信验证码（仅支持移动号码）
 
 **调用注意事项：**
 
-1. 使用该接口前，请开发者在开发者社区能力配置页面勾选上“短验辅助功能”（勾选后10分钟生效）
-2. 只有在服务端返回校验成功，而且结果为“非本机号码”时，才能调用该接口
+1. 使用该接口前，请开发者在开发者社区能力配置页面勾选上**【短验辅助功能】**（勾选后10分钟生效）
+2. 只有在服务端返回校验成功，而且结果为**非本机号码**时，才能调用该接口
 3. 本接口要求服务器IP地址白名单与本机号码校验配置的白名单相同
 4. 下发频次限制：每个手机号码1次/min，10次/24 hour
 5. 短验下发成功后，5min内有效
 
 ### 3.2.1. 业务流程
 
-![](C:/Users/tonyl/Documents/-%20GitSDKDoc/mobile-Auth-android-STD/image/SMS_process.png)
+![SMS_process](image/SMS_process.png)
 
 ### 3.2.2. 接口说明
 
@@ -344,7 +344,7 @@ self.login = [TYRZLogin loginWithAppId:APPID appKey:APPKEY];
 
 ### 3.3.1. 业务流程
 
-![](C:/Users/tonyl/Documents/-%20GitSDKDoc/mobile-Auth-android-STD/image/SMS_process.png)
+![SMS_process](image/SMS_process.png)
 
 
 
